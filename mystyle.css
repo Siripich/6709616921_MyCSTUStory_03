@@ -163,3 +163,38 @@ footer summary {
         font-size: 25px;
     }
 }
+/* ขนาดหน้าจอสูงสุด 480px (Mobile) */
+@media (max-width: 480px) {
+    .top-bar {
+        font-size: 30px;
+        padding: 5px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .box {
+        width: 100%; /* ขยายกล่องให้เต็มหน้าจอ */
+        margin-bottom: 15px;
+    }
+
+    video {
+        width: 100%; /* ปรับขนาดวิดีโอให้เต็มความกว้างของหน้าจอ */
+    }
+
+    .img-container {
+        height: 200px;
+    }
+
+    .foot-container {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    footer {
+        font-size: 18px;
+        padding: 15px;
+    }
+}
